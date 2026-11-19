@@ -4,7 +4,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Mohammad Yasin Siddique — Data Analyst | AI & Business Analytics"/>
 
-<a href="https://github.com/MYSiddique2005"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1100&color=2C9CDB&center=true&vCenter=true&width=680&lines=Turning+business+data+into+actionable+insights;EDA+%E2%80%A2+ETL+%E2%80%A2+KPI+Analysis+%E2%80%A2+Forecasting;Built+an+LLM-grounded+ERP+on+231K%2B+sales+lines;Open+to+Data+Analyst+roles+%F0%9F%9A%80" alt="Typing intro"/></a>
+<a href="https://github.com/MYSiddique2005"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1100&color=2C9CDB&center=true&vCenter=true&width=680&lines=Turning+business+data+into+actionable+insights;EDA+%E2%80%A2+ETL+%E2%80%A2+KPI+Analysis+%E2%80%A2+Forecasting;Built+an+LLM-grounded+ERP+on+231K%2B+sales+lines;LLM+test+accuracy+28%25+%E2%86%92+100%25;Open+to+Data+Analyst+roles+%F0%9F%9A%80" alt="Typing intro"/></a>
 
 <p>
   <a href="https://www.linkedin.com/in/mohammad-yasin-siddique-085b1b316/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -17,10 +17,22 @@
   <img src="https://komarev.com/ghpvc/?username=MYSiddique2005&style=flat-square&color=1B5E8A&label=Profile+views" alt="Profile views"/>
 </p>
 
+<sub>
+<a href="#about">About</a> ·
+<a href="#impact">Impact</a> ·
+<a href="#internship">Internship</a> ·
+<a href="#projects">Projects</a> ·
+<a href="#skills">Skills</a> ·
+<a href="#journey">Journey</a> ·
+<a href="#activity">Activity</a> ·
+<a href="#connect">Connect</a>
+</sub>
+
 </div>
 
 ---
 
+<a id="about"></a>
 ## 👋 About me
 
 Final-year **Computer Science Engineering** student with hands-on experience building end-to-end
@@ -37,17 +49,19 @@ yasin = {
 }
 ```
 
+<a id="impact"></a>
 ## 📈 Impact in numbers
 
-<img src="assets/impact.svg" width="100%" alt="Impact: 231,412 sales order lines; LLM false statements 25.9% to 2.4%; 98–100% evaluation score; ~110,000 products cleaned; RM 2.04M revenue analysed; R² 0.15 to 0.54"/>
+<img src="assets/impact.svg" width="100%" alt="Impact: 231,412 sales order lines; LLM test accuracy 28% to 100%; 98–100% evaluation score; ~110,000 products cleaned; RM 2.04M revenue analysed; R² 0.15 to 0.54"/>
 
 ---
 
-## 🚀 Featured projects
+<a id="internship"></a>
+## 💼 Internship
 
-> Click a project to expand screenshots, charts and architecture.
+> Click ▶ under any project to expand screenshots, charts and architecture.
 
-### 🧠 [IntelliERP](https://github.com/MYSiddique2005/Major_Project) — LLM-Grounded Intelligent ERP Decision Support
+### 🧠 [IntelliERP](https://github.com/MYSiddique2005/IntelliERP) — LLM-Grounded Intelligent ERP Decision Support
 <sub>**Research Internship · INTI International University · Aug – Dec 2026**</sub>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -58,7 +72,7 @@ yasin = {
 ![LLMs](https://img.shields.io/badge/LLMs_%26_RAG-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 - **Enterprise data integration** — 5-module ERP (Sales, Inventory, Procurement, Products, Suppliers) with **40+ REST APIs** and **11 PostgreSQL tables**, loaded with **231,412** sales order lines and **227** products
-- **AI & business intelligence** — LLM assistant grounded in a **41-passage** knowledge base with role-scoped tools for **stockout risk, demand forecasting and supplier KPIs**; false statements cut from **25.9% → 2.4%**
+- **AI & business intelligence** — LLM assistant grounded in a **41-passage** knowledge base with **14 role-scoped tools** for **stockout risk, demand forecasting and supplier KPIs**, raising test accuracy from **28% → 100%**
 - **Workflow automation** — JWT authentication, **role-based access control for 4 roles**, audit logging and a purchase-order approval workflow with human sign-off; **98–100%** across 3 runs of an 86-question evaluation
 
 <details>
@@ -69,7 +83,7 @@ yasin = {
 |:-:|:-:|
 | <img src="assets/projects/ui-dashboard.png" width="420" alt="IntelliERP dashboard"/> | <img src="assets/projects/ui-ai-assistant.png" width="420" alt="IntelliERP AI assistant"/> |
 
-<img src="assets/projects/chart-grounding.png" width="640" alt="Grounding results: false statements with and without the knowledge base"/>
+<img src="assets/projects/chart-grounding.png" width="640" alt="Grounding results: questions answered correctly with and without the knowledge base"/>
 
 ```mermaid
 flowchart LR
@@ -77,7 +91,7 @@ flowchart LR
     FE --> API["⚡ FastAPI<br/>40+ REST APIs"]
     API --> DB[("🐘 PostgreSQL<br/>11 tables · 231K lines")]
     API --> AI["🧠 LLM assistant"]
-    AI -->|role-scoped tools| DB
+    AI -->|14 role-scoped tools| DB
     AI -->|RAG| KB["📚 Knowledge base<br/>41 passages"]
     AI --> V["🔍 Verification<br/>checks every claim"]
     V --> FE
@@ -87,6 +101,9 @@ flowchart LR
 </details>
 
 ---
+
+<a id="projects"></a>
+## 🚀 Projects
 
 ### 📊 [Byte Supply — E-Commerce Business Analytics](https://github.com/MYSiddique2005/Byte-Supply-E-Commerce-Business-Analytics)
 <sub>**Individual project · Oct 2026** · [🌐 Live interactive dashboard](https://mysiddique2005.github.io/Byte-Supply-E-Commerce-Business-Analytics/)</sub>
@@ -100,7 +117,7 @@ flowchart LR
 
 - **Exploratory data analysis** — analysed **24,991** transactions (**RM 2.04M** revenue over 5 years): **36.5%** gross margin, **89.6%** on-time delivery; mega-sale days earned **25.1%** margin vs **36.8%** otherwise
 - **Predictive modelling** — linear vs polynomial regression on a chronological 80/20 split; polynomial model cut **MAE by 21.5%** and raised **R² from 0.15 to 0.54** for a 12-month revenue forecast
-- **Data visualisation** — 10+ Seaborn and Matplotlib charts showing late deliveries cut average rating from **4.20 to 2.99** and that **Q4 generates 29.2%** of annual revenue
+- **Data visualisation** — 10 Seaborn and Matplotlib charts showing late deliveries cut average rating from **4.20 to 2.99** and that **Q4 generates 29.2%** of annual revenue
 
 <details>
 <summary><b>📉 Show charts</b></summary>
@@ -126,7 +143,7 @@ flowchart LR
 
 - **Data acquisition** — processed **~110,000** product records from **Amazon, Flipkart, Shopee and Lazada** for multi-platform e-commerce dataset preparation
 - **ETL & data quality** — extraction, transformation, schema standardisation, deduplication, missing-value assessment and validation across heterogeneous CSV datasets
-- **Team collaboration** — coordinated preprocessing, quality checks and documentation within a five-member team
+- **Team collaboration** — coordinated preprocessing, quality checks and documentation within a five-member team, applying communication, problem-solving and analytical thinking
 
 <details>
 <summary><b>🔧 Show the ETL pipeline</b></summary>
@@ -145,7 +162,12 @@ flowchart LR
 
 ---
 
+<a id="skills"></a>
 ## 🛠️ Technical skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,postgres,ts,fastapi,react,sklearn,git,vscode&perline=8" alt="Python, PostgreSQL, TypeScript, FastAPI, React, scikit-learn, Git, VS Code"/>
+</p>
 
 <table>
 <tr><td><b>Languages</b></td><td>
@@ -184,6 +206,7 @@ flowchart LR
 
 ---
 
+<a id="journey"></a>
 ## 🧭 Journey
 
 ```mermaid
@@ -224,12 +247,15 @@ timeline
 
 ---
 
+<a id="activity"></a>
 ## 📊 GitHub activity
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=MYSiddique2005&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&rank_icon=github" alt="GitHub stats"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MYSiddique2005&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
+
+<img height="165" src="https://streak-stats.demolab.com?user=MYSiddique2005&theme=tokyonight&hide_border=true" alt="Contribution streak"/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MYSiddique2005&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
 
@@ -239,6 +265,7 @@ timeline
 
 <div align="center">
 
+<a id="connect"></a>
 ### 🤝 Let's connect
 
 Open to **Data Analyst** and **Business / AI Analytics** opportunities.

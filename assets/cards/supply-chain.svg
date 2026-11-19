@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1D33"/><stop offset="1" stop-color="#12304F"/></linearGradient></defs>
+
+<style>
+ .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+ .h1{font-size:30px;font-weight:700;fill:#FFFFFF}
+ .h2{font-size:15px;font-weight:600;fill:#9FD8F5}
+ .lab{font-size:13px;fill:#C9DCEB}
+ .sm{font-size:12px;fill:#8FB0CB}
+ .val{font-size:13px;font-weight:700;fill:#FFFFFF}
+ .big{font-size:28px;font-weight:700}
+ .chip{font-size:12px;font-weight:600;fill:#0B1D33}
+ .f{opacity:0;animation:f .7s ease-out forwards}
+ .gx{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:gx 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+ .gy{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:gy 1s cubic-bezier(.2,.8,.2,1) forwards}
+ .glow{animation:glow 3s ease-in-out infinite}
+ .cta{animation:cta 2.2s ease-in-out 1.5s infinite}
+ @keyframes f{to{opacity:1}}
+ @keyframes gx{to{transform:scaleX(1)}}
+ @keyframes gy{to{transform:scaleY(1)}}
+ @keyframes glow{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.9}}
+ @keyframes cta{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+</style>
+<rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#bg)"/>
+<rect class="glow" x="1" y="1" width="1198" height="298" rx="20" fill="none" stroke="#FFD27F" stroke-width="2"/>
+<rect x="1" y="30" width="6" height="240" rx="3" fill="#FFD27F"/>
+<g class="t">
+<text class="h1 f" x="40" y="58">🛒 Supply Chain Big Data Analytics</text>
+<text class="h2 f" style="animation-delay:.15s" x="40" y="86">Team project (5 members) · Sep – Oct 2026 · ETL &amp; data quality</text>
+<g class="f" style="animation-delay:0.3s"><rect x="40" y="102" width="59" height="24" rx="12" fill="#9FD8F5"/><text class="chip" x="70" y="118" text-anchor="middle">Python</text></g><g class="f" style="animation-delay:0.35s"><rect x="107" y="102" width="59" height="24" rx="12" fill="#9FD8F5"/><text class="chip" x="137" y="118" text-anchor="middle">pandas</text></g><g class="f" style="animation-delay:0.39999999999999997s"><rect x="174" y="102" width="38" height="24" rx="12" fill="#7CF5C4"/><text class="chip" x="193" y="118" text-anchor="middle">ETL</text></g><g class="f" style="animation-delay:0.44999999999999996s"><rect x="220" y="102" width="131" height="24" rx="12" fill="#7CF5C4"/><text class="chip" x="286" y="118" text-anchor="middle">Data Engineering</text></g><g class="f" style="animation-delay:0.49999999999999994s"><rect x="359" y="102" width="102" height="24" rx="12" fill="#FFD27F"/><text class="chip" x="410" y="118" text-anchor="middle">Data Quality</text></g>
+<g class="f" style="animation-delay:0.5s"><rect x="40" y="150" width="200" height="74" rx="12" fill="#123A5E"/><text class="big" x="56" y="188" fill="#4FC3F7">~110,000</text><text class="lab" x="56" y="210">product records</text></g><g class="f" style="animation-delay:0.65s"><rect x="255" y="150" width="200" height="74" rx="12" fill="#123A5E"/><text class="big" x="271" y="188" fill="#7CF5C4">4</text><text class="lab" x="271" y="210">marketplaces unified</text></g><g class="f" style="animation-delay:0.8s"><rect x="470" y="150" width="200" height="74" rx="12" fill="#123A5E"/><text class="big" x="486" y="188" fill="#FFD27F">0</text><text class="lab" x="486" y="210">duplicate IDs after ETL</text></g>
+<text class="h2 f" style="animation-delay:0.6s" x="730" y="108">Records per platform (thousands)</text><text class="lab f" style="animation-delay:0.6s" x="730" y="141">Amazon</text><rect x="850" y="126" width="250" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.04"/><rect class="gx" style="animation-delay:0.8s" x="850" y="126" width="250.0" height="20" rx="4" fill="#1E9BD7"/><text class="val f" style="animation-delay:1.5s" x="1108.0" y="141">30K</text><text class="lab f" style="animation-delay:0.6s" x="730" y="175">Shopee</text><rect x="850" y="160" width="250" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.04"/><rect class="gx" style="animation-delay:1.05s" x="850" y="160" width="250.0" height="20" rx="4" fill="#1E9BD7"/><text class="val f" style="animation-delay:1.75s" x="1108.0" y="175">30K</text><text class="lab f" style="animation-delay:0.6s" x="730" y="209">Lazada</text><rect x="850" y="194" width="250" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.04"/><rect class="gx" style="animation-delay:1.3s" x="850" y="194" width="250.0" height="20" rx="4" fill="#1E9BD7"/><text class="val f" style="animation-delay:2.0s" x="1108.0" y="209">30K</text><text class="lab f" style="animation-delay:0.6s" x="730" y="243">Flipkart</text><rect x="850" y="228" width="250" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.04"/><rect class="gx" style="animation-delay:1.55s" x="850" y="228" width="166.7" height="20" rx="4" fill="#1E9BD7"/><text class="val f" style="animation-delay:2.25s" x="1024.7" y="243">20K</text>
+<g class="f" style="animation-delay:1.4s"><text class="sm cta" x="1160" y="282" text-anchor="end">Open repository →</text></g>
+</g></svg>

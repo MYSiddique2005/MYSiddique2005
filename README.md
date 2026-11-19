@@ -54,22 +54,27 @@ yasin = {
 
 <img src="assets/impact.svg" width="100%" alt="Impact: 231,412 sales order lines; LLM test accuracy 28% to 100%; 98–100% evaluation score; ~110,000 products cleaned; RM 2.04M revenue analysed; R² 0.15 to 0.54"/>
 
+<details open>
+<summary><b>🔎 Data stories — what the analysis actually found</b></summary>
+<br>
+
+<img src="assets/insights.svg" width="100%" alt="Four findings: mega-sale days earned 25.1% gross margin vs 36.8% on other days; late deliveries averaged a 2.99 rating vs 4.20 on time; polynomial forecast R² 0.54 vs 0.15 linear; grounded LLM test accuracy 100% vs 28% ungrounded"/>
+
+</details>
+
 ---
 
 <a id="internship"></a>
 ## 💼 Internship
 
-> Click ▶ under any project to expand screenshots, charts and architecture.
+> Click a card to open the repo · click ▶ to expand screenshots, charts and architecture.
 
-### 🧠 [IntelliERP](https://github.com/MYSiddique2005/IntelliERP) — LLM-Grounded Intelligent ERP Decision Support
-<sub>**Research Internship · INTI International University · Aug – Dec 2026**</sub>
+<a href="https://github.com/MYSiddique2005/IntelliERP"><img src="assets/cards/intellierp.svg" width="100%" alt="IntelliERP — LLM-grounded ERP decision support. 231,412 sales order lines, 40+ REST APIs, 11 PostgreSQL tables, 4 roles; LLM test accuracy 28% → 100%"/></a>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs_%26_RAG-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+<p align="center">
+  <a href="https://github.com/MYSiddique2005/IntelliERP"><img src="https://img.shields.io/badge/Repository-IntelliERP-1E9BD7?style=flat-square&logo=github" alt="Repository"/></a>
+  <img src="https://img.shields.io/badge/Eval-98–100%25_·_86_questions-2E7D32?style=flat-square" alt="Evaluation"/>
+</p>
 
 - **Enterprise data integration** — 5-module ERP (Sales, Inventory, Procurement, Products, Suppliers) with **40+ REST APIs** and **11 PostgreSQL tables**, loaded with **231,412** sales order lines and **227** products
 - **AI & business intelligence** — LLM assistant grounded in a **41-passage** knowledge base with **14 role-scoped tools** for **stockout risk, demand forecasting and supplier KPIs**, raising test accuracy from **28% → 100%**
@@ -105,15 +110,12 @@ flowchart LR
 <a id="projects"></a>
 ## 🚀 Projects
 
-### 📊 [Byte Supply — E-Commerce Business Analytics](https://github.com/MYSiddique2005/Byte-Supply-E-Commerce-Business-Analytics)
-<sub>**Individual project · Oct 2026** · [🌐 Live interactive dashboard](https://mysiddique2005.github.io/Byte-Supply-E-Commerce-Business-Analytics/)</sub>
+<a href="https://github.com/MYSiddique2005/Byte-Supply-E-Commerce-Business-Analytics"><img src="assets/cards/byte-supply.svg" width="100%" alt="Byte Supply — e-commerce business analytics. 24,991 transactions, RM 2.04M revenue, 36.5% gross margin; forecast R² 0.15 → 0.54"/></a>
 
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+<p align="center">
+  <a href="https://github.com/MYSiddique2005/Byte-Supply-E-Commerce-Business-Analytics"><img src="https://img.shields.io/badge/Repository-Byte_Supply-1E9BD7?style=flat-square&logo=github" alt="Repository"/></a>
+  <a href="https://mysiddique2005.github.io/Byte-Supply-E-Commerce-Business-Analytics/"><img src="https://img.shields.io/badge/▶_Open-Live_Dashboard-2E7D32?style=flat-square&logo=plotly&logoColor=white" alt="Live dashboard"/></a>
+</p>
 
 - **Exploratory data analysis** — analysed **24,991** transactions (**RM 2.04M** revenue over 5 years): **36.5%** gross margin, **89.6%** on-time delivery; mega-sale days earned **25.1%** margin vs **36.8%** otherwise
 - **Predictive modelling** — linear vs polynomial regression on a chronological 80/20 split; polynomial model cut **MAE by 21.5%** and raised **R² from 0.15 to 0.54** for a 12-month revenue forecast
@@ -133,13 +135,12 @@ flowchart LR
 
 ---
 
-### 🛒 [Supply Chain Big Data Analytics](https://github.com/MYSiddique2005/SupplyChain-BigDataAnalytics)
-<sub>**Team project (5 members) · Sep – Oct 2026**</sub>
+<a href="https://github.com/MYSiddique2005/SupplyChain-BigDataAnalytics"><img src="assets/cards/supply-chain.svg" width="100%" alt="Supply Chain Big Data Analytics — ~110,000 product records from Amazon, Shopee, Lazada (30K each) and Flipkart (20K), unified with 0 duplicate IDs"/></a>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![ETL](https://img.shields.io/badge/ETL-2C5364?style=flat-square)
-![Data Engineering](https://img.shields.io/badge/Data_Engineering-2C5364?style=flat-square)
+<p align="center">
+  <a href="https://github.com/MYSiddique2005/SupplyChain-BigDataAnalytics"><img src="https://img.shields.io/badge/Repository-Supply_Chain-1E9BD7?style=flat-square&logo=github" alt="Repository"/></a>
+  <img src="https://img.shields.io/badge/Team-5_members-8E75B2?style=flat-square" alt="Team of 5"/>
+</p>
 
 - **Data acquisition** — processed **~110,000** product records from **Amazon, Flipkart, Shopee and Lazada** for multi-platform e-commerce dataset preparation
 - **ETL & data quality** — extraction, transformation, schema standardisation, deduplication, missing-value assessment and validation across heterogeneous CSV datasets
@@ -257,6 +258,11 @@ timeline
 
 <img height="165" src="https://streak-stats.demolab.com?user=MYSiddique2005&theme=tokyonight&hide_border=true" alt="Contribution streak"/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MYSiddique2005/MYSiddique2005/output/snake-dark.svg"/>
+  <img width="100%" src="https://raw.githubusercontent.com/MYSiddique2005/MYSiddique2005/output/snake.svg" alt="Snake eating my contribution graph"/>
+</picture>
+
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MYSiddique2005&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
 
 </div>
@@ -274,3 +280,5 @@ Open to **Data Analyst** and **Business / AI Analytics** opportunities.
 <a href="mailto:my.siddique2005@gmail.com"><img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0B1D33,50:123A5E,100:1B5E8A" width="100%" alt=""/>

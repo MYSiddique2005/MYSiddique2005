@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1D33"/>
+      <stop offset="0.55" stop-color="#123A5E"/>
+      <stop offset="1" stop-color="#1B5E8A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="1" stop-color="#7CF5C4"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4FC3F7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4FC3F7" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .name { font-size: 46px; font-weight: 700; fill: #FFFFFF; }
+      .role { font-size: 22px; font-weight: 500; fill: #9FD8F5; }
+      .sub  { font-size: 16px; fill: #C9DCEB; }
+      .chip { font-size: 14px; font-weight: 600; fill: #0B1D33; }
+      .fade1 { opacity: 0; animation: fade 0.8s ease-out 0.1s forwards; }
+      .fade2 { opacity: 0; animation: fade 0.8s ease-out 0.5s forwards; }
+      .fade3 { opacity: 0; animation: fade 0.8s ease-out 0.9s forwards; }
+      .draw { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 2.4s ease-out 0.4s forwards; }
+      .areaf { opacity: 0; animation: fade 1.2s ease-out 1.8s forwards; }
+      .bar { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: grow 0.9s ease-out forwards; }
+      .pulse { animation: pulse 2s ease-in-out 2.6s infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes grow { to { transform: scaleY(1); } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.8); opacity: 0.4; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+
+  <!-- faint grid -->
+  <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1">
+    <line x1="700" y1="70"  x2="1150" y2="70"/>
+    <line x1="700" y1="130" x2="1150" y2="130"/>
+    <line x1="700" y1="190" x2="1150" y2="190"/>
+    <line x1="700" y1="250" x2="1150" y2="250"/>
+  </g>
+
+  <!-- animated bars -->
+  <g fill="#FFFFFF" fill-opacity="0.13">
+    <rect class="bar" style="animation-delay:0.2s" x="715"  y="200" width="34" height="50" rx="4"/>
+    <rect class="bar" style="animation-delay:0.3s" x="765"  y="180" width="34" height="70" rx="4"/>
+    <rect class="bar" style="animation-delay:0.4s" x="815"  y="190" width="34" height="60" rx="4"/>
+    <rect class="bar" style="animation-delay:0.5s" x="865"  y="155" width="34" height="95" rx="4"/>
+    <rect class="bar" style="animation-delay:0.6s" x="915"  y="140" width="34" height="110" rx="4"/>
+    <rect class="bar" style="animation-delay:0.7s" x="965"  y="120" width="34" height="130" rx="4"/>
+    <rect class="bar" style="animation-delay:0.8s" x="1015" y="100" width="34" height="150" rx="4"/>
+    <rect class="bar" style="animation-delay:0.9s" x="1065" y="75"  width="34" height="175" rx="4"/>
+  </g>
+
+  <!-- animated trend line -->
+  <path class="areaf" d="M732 205 L782 188 L832 196 L882 160 L932 150 L982 122 L1032 108 L1082 78 L1082 250 L732 250 Z" fill="url(#area)"/>
+  <path class="draw" d="M732 205 L782 188 L832 196 L882 160 L932 150 L982 122 L1032 108 L1082 78" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="pulse" cx="1082" cy="78" r="7" fill="#7CF5C4"/>
+
+  <!-- text -->
+  <g class="t">
+    <text class="name fade1" x="60" y="112">Mohammad Yasin Siddique</text>
+    <text class="role fade2" x="60" y="152">Data Analyst  ·  AI &amp; Business Analytics</text>
+    <text class="sub fade2" x="60" y="186">B.Tech CSE (2027) · G.H. Raisoni, Nagpur · INTI University, Malaysia</text>
+
+    <g class="fade3">
+      <rect x="60"  y="216" width="88"  height="32" rx="16" fill="#9FD8F5"/>
+      <text class="chip" x="104" y="237" text-anchor="middle">Python</text>
+      <rect x="158" y="216" width="64"  height="32" rx="16" fill="#9FD8F5"/>
+      <text class="chip" x="190" y="237" text-anchor="middle">SQL</text>
+      <rect x="232" y="216" width="132" height="32" rx="16" fill="#7CF5C4"/>
+      <text class="chip" x="298" y="237" text-anchor="middle">Machine Learning</text>
+      <rect x="374" y="216" width="72"  height="32" rx="16" fill="#7CF5C4"/>
+      <text class="chip" x="410" y="237" text-anchor="middle">ETL</text>
+      <rect x="456" y="216" width="130" height="32" rx="16" fill="#FFD27F"/>
+      <text class="chip" x="521" y="237" text-anchor="middle">LLMs &amp; RAG</text>
+    </g>
+  </g>
+</svg>

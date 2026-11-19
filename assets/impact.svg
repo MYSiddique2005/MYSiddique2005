@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
+  <defs>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .big { font-size: 34px; font-weight: 700; }
+      .lab { font-size: 14px; fill: #C9DCEB; }
+      .src { font-size: 12px; fill: #7FA3C0; }
+      .tile { opacity: 0; animation: up 0.7s ease-out forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+  <rect width="1200" height="250" rx="20" fill="#0B1D33"/>
+
+  <g class="t">
+    <!-- row 1 -->
+    <g class="tile" style="animation-delay:0.1s">
+      <rect x="30" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="55" y="72" fill="#4FC3F7">231,412</text>
+      <text class="lab" x="55" y="98">sales order lines in the IntelliERP database</text>
+    </g>
+    <g class="tile" style="animation-delay:0.25s">
+      <rect x="420" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="445" y="72" fill="#7CF5C4">25.9% → 2.4%</text>
+      <text class="lab" x="445" y="98">LLM false statements, with grounding</text>
+    </g>
+    <g class="tile" style="animation-delay:0.4s">
+      <rect x="810" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="835" y="72" fill="#FFD27F">98–100%</text>
+      <text class="lab" x="835" y="98">score on an 86-question evaluation, 3 runs</text>
+    </g>
+    <!-- row 2 -->
+    <g class="tile" style="animation-delay:0.55s">
+      <rect x="30" y="135" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="55" y="182" fill="#4FC3F7">~110,000</text>
+      <text class="lab" x="55" y="208">products cleaned from 4 marketplaces</text>
+    </g>
+    <g class="tile" style="animation-delay:0.7s">
+      <rect x="420" y="135" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="445" y="182" fill="#7CF5C4">RM 2.04M</text>
+      <text class="lab" x="445" y="208">revenue analysed across 24,991 transactions</text>
+    </g>
+    <g class="tile" style="animation-delay:0.85s">
+      <rect x="810" y="135" width="360" height="95" rx="14" fill="#123A5E"/>
+      <text class="big" x="835" y="182" fill="#FFD27F">R² 0.15 → 0.54</text>
+      <text class="lab" x="835" y="208">revenue forecast; MAE cut by 21.5%</text>
+    </g>
+  </g>
+</svg>

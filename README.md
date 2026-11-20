@@ -4,7 +4,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Mohammad Yasin Siddique — Data Analyst | AI & Business Analytics"/>
 
-<a href="https://github.com/MYSiddique2005"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1100&color=2C9CDB&center=true&vCenter=true&width=680&lines=Turning+business+data+into+actionable+insights;EDA+%E2%80%A2+ETL+%E2%80%A2+KPI+Analysis+%E2%80%A2+Forecasting;Built+an+LLM-grounded+ERP+on+231K%2B+sales+lines;LLM+test+accuracy+28%25+%E2%86%92+100%25;Open+to+Data+Analyst+roles+%F0%9F%9A%80" alt="Typing intro"/></a>
+<a href="https://github.com/MYSiddique2005"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1100&color=2C9CDB&center=true&vCenter=true&width=680&lines=Turning+business+data+into+actionable+insights;EDA+%E2%80%A2+ETL+%E2%80%A2+KPI+Analysis+%E2%80%A2+Forecasting;Built+an+LLM-grounded+ERP+on+231K%2B+sales+lines;False+statements+25.9%25+%E2%86%92+2.4%25+with+grounding;Open+to+Data+Analyst+roles+%F0%9F%9A%80" alt="Typing intro"/></a>
 
 <p>
   <a href="https://www.linkedin.com/in/mohammad-yasin-siddique-085b1b316/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -52,7 +52,7 @@ yasin = {
 <a id="impact"></a>
 ## 📈 Impact in numbers
 
-<img src="assets/impact.svg" width="100%" alt="Impact: 231,412 sales order lines; LLM test accuracy 28% to 100%; 98–100% evaluation score; ~110,000 products cleaned; RM 2.04M revenue analysed; R² 0.15 to 0.54"/>
+<img src="assets/impact.svg" width="100%" alt="Impact: built on 231,412 real sales order lines; paired-question accuracy 25–28% to 100%; 98–100% evaluation score; ~110,000 products cleaned; RM 2.04M revenue analysed; R² 0.15 to 0.54"/>
 
 <details open>
 <summary><b>🔎 Data stories — what the analysis actually found</b></summary>
@@ -69,15 +69,15 @@ yasin = {
 
 > Click a card to open the repo · click ▶ to expand screenshots, charts and architecture.
 
-<a href="https://github.com/MYSiddique2005/IntelliERP"><img src="assets/cards/intellierp.svg" width="100%" alt="IntelliERP — LLM-grounded ERP decision support. 231,412 sales order lines, 40+ REST APIs, 11 PostgreSQL tables, 4 roles; LLM test accuracy 28% → 100%"/></a>
+<a href="https://github.com/MYSiddique2005/IntelliERP"><img src="assets/cards/intellierp.svg" width="100%" alt="IntelliERP — LLM-grounded ERP decision support. built on 231,412 real sales order lines, 40+ REST APIs, 11 PostgreSQL tables, 4 roles, 15 tools; paired-question accuracy 25–28% → 100%"/></a>
 
 <p align="center">
   <a href="https://github.com/MYSiddique2005/IntelliERP"><img src="https://img.shields.io/badge/Repository-IntelliERP-1E9BD7?style=flat-square&logo=github" alt="Repository"/></a>
   <img src="https://img.shields.io/badge/Eval-98–100%25_·_86_questions-2E7D32?style=flat-square" alt="Evaluation"/>
 </p>
 
-- **Enterprise data integration** — 5-module ERP (Sales, Inventory, Procurement, Products, Suppliers) with **40+ REST APIs** and **11 PostgreSQL tables**, loaded with **231,412** sales order lines and **227** products
-- **AI & business intelligence** — LLM assistant grounded in a **41-passage** knowledge base with **14 role-scoped tools** for **stockout risk, demand forecasting and supplier KPIs**, raising test accuracy from **28% → 100%**
+- **Enterprise data integration** — eight-module ERP (dashboard, sales, inventory, products, suppliers, procurement, approvals, audit log) with **40+ REST APIs** and **11 PostgreSQL tables**, built on Microsoft's Wide World Importers data: **231,412** real sales order lines and **227** products, with the latest 12 months (**72,696** lines) loaded into the live system
+- **AI & business intelligence** — LLM assistant grounded in a **41-passage** knowledge base and **15 permission-checked tools** for **stockout risk, demand forecasting and supplier KPIs**; grounding raised paired-question accuracy from **8–9 to 32 of 32** and cut false statements from **25.9% → 2.4%**
 - **Workflow automation** — JWT authentication, **role-based access control for 4 roles**, audit logging and a purchase-order approval workflow with human sign-off; **98–100%** across 3 runs of an 86-question evaluation
 
 <details>
@@ -94,9 +94,9 @@ yasin = {
 flowchart LR
     U["👤 User<br/>(4 roles, JWT)"] --> FE["⚛️ React + TypeScript"]
     FE --> API["⚡ FastAPI<br/>40+ REST APIs"]
-    API --> DB[("🐘 PostgreSQL<br/>11 tables · 231K lines")]
+    API --> DB[("🐘 PostgreSQL<br/>11 tables · 72,696 sales lines")]
     API --> AI["🧠 LLM assistant"]
-    AI -->|14 role-scoped tools| DB
+    AI -->|15 permission-checked tools| DB
     AI -->|RAG| KB["📚 Knowledge base<br/>41 passages"]
     AI --> V["🔍 Verification<br/>checks every claim"]
     V --> FE

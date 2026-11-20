@@ -16,12 +16,12 @@
     <g class="tile" style="animation-delay:0.1s">
       <rect x="30" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
       <text class="big" x="55" y="72" fill="#4FC3F7">231,412</text>
-      <text class="lab" x="55" y="98">sales order lines in the IntelliERP database</text>
+      <text class="lab" x="55" y="98">real sales order lines the ERP is built on</text>
     </g>
     <g class="tile" style="animation-delay:0.25s">
       <rect x="420" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
-      <text class="big" x="445" y="72" fill="#7CF5C4">28% → 100%</text>
-      <text class="lab" x="445" y="98">LLM test accuracy, 14 role-scoped tools</text>
+      <text class="big" x="445" y="72" fill="#7CF5C4">25–28% → 100%</text>
+      <text class="lab" x="445" y="98">paired-question accuracy with grounding</text>
     </g>
     <g class="tile" style="animation-delay:0.4s">
       <rect x="810" y="25" width="360" height="95" rx="14" fill="#123A5E"/>
